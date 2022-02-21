@@ -1,21 +1,20 @@
 /* reset css */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
 /* header */
 .header {
     height: 80px;
     background-color: #fff;
-    border-bottom: 1px solid rgba(0,0,0,.04);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top :0;
+    top: 0;
     right: 0;
     left: 0;
     z-index: 1;
@@ -27,7 +26,7 @@
 .header__logo {
     display: inline-block;
     padding: 10px;
-    background: rgba(0,0,0,.04);
+    background: rgba(0, 0, 0, 0.04);
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -52,13 +51,13 @@
     outline: none;
     font-size: 14px;
     font-weight: 600;
-    
 }
-.header__search-input::-webkit-input-placeholder { /* Edge */
-        color: #222;
-      }
+.header__search-input::-webkit-input-placeholder {
+    /* Edge */
+    color: #222;
+}
 .header__search-date,
-.header__search-guest  {
+.header__search-guest {
     width: 115px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -72,12 +71,11 @@
     font-size: 1.4rem;
     margin-right: 10px;
     color: rgb(116, 116, 116);
-
 }
 .header__search-btn {
     width: 56px;
     height: 36px;
-    background-color:   #555555;
+    background-color: #555555;
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -113,7 +111,7 @@
 .header__language {
     align-items: center;
 }
-.vietnam .header__nav-link{
+.vietnam .header__nav-link {
     background-color: #f6f6f6;
     border-radius: 20px;
     width: 94px;
@@ -141,16 +139,20 @@
 .wellcome-heading,
 .place-heading,
 .event-heading,
-.suggest-heading {
+.suggest-heading,
+.discover-heading .tutorial-heading {
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #222;
+    font-weight: 500;
 }
 
 .wellcome-content,
 .place-content,
 .event-content,
-.suggest-content {
+.suggest-content,
+.discover-content,
+.tutorial-content {
     font-size: 1.6rem;
     line-height: 2.3rem;
     margin: 8px 0;
@@ -159,7 +161,7 @@
 .place__item {
     margin: 8px 0;
     position: relative;
-} 
+}
 .place__item-link {
     text-decoration: none;
     color: #fff;
@@ -183,14 +185,27 @@
     bottom: 10%;
     left: 10%;
 }
+.event-content,
+.suggest-content,
+.place-content,
+.wellcome-content,
+.discover-content,
+.tutorial-content {
+    margin-bottom: 18px;
+}
 .event,
 .suggest,
 .place,
-.wellcome {
+.wellcome,
+.discover,
+.tutorial {
     margin-top: 64px;
 }
+.place__list,
 .event__list,
-.suggest__list {
+.suggest__list,
+.discover__list,
+.tutorial__list {
     margin-bottom: 50px;
 }
 .event-item__img {
@@ -218,4 +233,85 @@
     font-size: 1.6rem;
     line-height: 2rem;
     color: #222;
+}
+.discover__item {
+    position: relative;
+}
+.discover__header {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 4px 12px;
+    background-color: #bebebe;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discover__header-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+.discover__title {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 16px;
+    line-height: 3rem;
+}
+.discover-item__img {
+    height: 260px;
+    background-color: #eee; /* Dành cho các trình duyệt không hỗ trợ gradient*/
+    background-image: linear-gradient(180deg, #eee, #797979);
+    border-radius: 5px;
+}
+
+.tutorial-item__img {
+    height: 228px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.about__app-img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.about__logo-img {
+    width: 50%;
+    margin-bottom: 18px;
+}
+.about__sologan {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #222;
+}
+.about__content {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 42px;
+    color: #222;
+    display: block;
+}
+.about__qrcode-img {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 20%);
+}
+.about__app-download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15%;
+}
+.about__app-dowwnload--img {
+    width: 139px;
+    margin-right: 8px;
 }
