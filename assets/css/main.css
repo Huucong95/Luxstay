@@ -315,3 +315,98 @@
     width: 139px;
     margin-right: 8px;
 }
+/* footer */
+.footer {
+    padding-top:48px;
+    padding-bottom:48px;
+}
+.widget__logo-img {
+    width: 85%;
+}
+.widget__mess-logo,
+.widget__telephone-logo{
+    width: 40px;
+    margin-right: 12px;
+}
+.widget__mess,
+.widget__telephone {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.widget__mess-info--name,
+.widget__telephone-info--name {
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 2.1rem;
+}
+.widget__mess-info--link,
+.widget__telephone-info--link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #222;
+    text-decoration: none;
+}
+.homestay__heading {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.homestay__item {
+    list-style: none;
+}
+.homestay__item-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.4rem;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+}
+.footer__qrcode-img {
+    width: 62px;
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 20%);
+    box-sizing: content-box;
+}
+.footer__app-download {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer__app-dowwnload--img {
+    margin-bottom: 12px;
+    width: 100px;
+}
+.cert__item {
+    display: flex;
+    align-items: center;
+}
+.cert_img {
+    margin-right: 16px;
+    width: 92px;
+}
+.footer_2 {
+    margin-top: 30px;
+}
+.folow__link{
+    margin-right: 12px;
+}
+.footer__end {
+    border-top: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 24px 15px;
+
+}
+.footer__end-content {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 6px;
+    color: #999;
+    line-height: 2.1rem;
+}
