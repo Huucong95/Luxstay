@@ -14,6 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top :0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 .header-left {
     display: flex;
@@ -21,16 +26,20 @@
 }
 .header__logo {
     display: inline-block;
-    height: 50px;
+    padding: 10px;
+    background: rgba(0,0,0,.04);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
 }
 .header__search {
-    width: 800px;
+    width: 598px;
     border-radius: 5px;
-    height: 48px;
+    height: 47px;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .header__search-location {
     height: 100%;
@@ -46,14 +55,18 @@
     
 }
 .header__search-input::-webkit-input-placeholder { /* Edge */
-        color: #555;
+        color: #222;
       }
 .header__search-date,
 .header__search-guest  {
-    width: 114px;
+    width: 115px;
     font-size: 1.4rem;
-    font-weight: 600;
-    color: #555;
+    font-weight: 500;
+    color: #222;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .search_icon {
     font-size: 1.4rem;
@@ -68,7 +81,7 @@
     border: none;
     border-radius: 4px;
     color: #fff;
-    margin: 0 8px;
+    margin: 0 6.4px;
 }
 .flex-nowrap {
     display: flex;
@@ -87,17 +100,17 @@
 }
 .header__nav-item {
     align-items: center;
+    margin-left: 20px;
 }
 .header__nav-link {
     text-decoration: none;
     color: #222;
     display: block;
     font-size: 1.4rem;
-    font-weight: 600;
-    margin-left: 20px;
+    font-weight: 500;
+    line-height: 2.1rem;
 }
 .header__language {
-    margin-left: 20px;
     align-items: center;
 }
 .vietnam .header__nav-link{
@@ -110,8 +123,99 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 300;
 }
 .vietnam-icon {
-    margin-left: -15px;
-    margin-right: 15px;
+    margin-right: 6px;
+    margin-left: -6px;
+}
+
+/* container */
+.slider {
+    margin-top: 122px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* wellcome */
+.wellcome-heading,
+.place-heading,
+.event-heading,
+.suggest-heading {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #222;
+}
+
+.wellcome-content,
+.place-content,
+.event-content,
+.suggest-content {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    margin: 8px 0;
+    color: #555;
+}
+.place__item {
+    margin: 8px 0;
+    position: relative;
+} 
+.place__item-link {
+    text-decoration: none;
+    color: #fff;
+}
+.place-item__img {
+    padding-top: 125%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.place__item-heading {
+    font-size: 2.4rem;
+    margin-bottom: 4px;
+}
+.place__item-locations {
+    font-size: 1.6rem;
+    padding-top: 16px;
+}
+.place__item-info {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.event,
+.suggest,
+.place,
+.wellcome {
+    margin-top: 64px;
+}
+.event__list,
+.suggest__list {
+    margin-bottom: 50px;
+}
+.event-item__img {
+    padding-top: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.suggest-item__img {
+    padding-top: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.suggest__item-link {
+    text-decoration: none;
+}
+.suggest__info-title {
+    font-size: 1.2rem;
+    color: #555555;
+    margin: 8px 0;
+}
+.suggest__info-content {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #222;
 }
