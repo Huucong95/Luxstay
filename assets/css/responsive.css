@@ -107,14 +107,8 @@
 .about__app-img {
     margin-top: 48px;
 }
-
-.header__nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.header__nav-list{
+.header__nav-btn {
     display: block;
-
 }
+
 }
