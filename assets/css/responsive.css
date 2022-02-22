@@ -15,6 +15,10 @@
     .row::-webkit-scrollbar {
         display: none;
     }
+    .header__nav-btn {
+        display: block;
+    }
+    
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -78,7 +82,8 @@
     margin-left: 16px ;
     margin-right: 16px;
 }
-.about> .row >.col {
+.about> .row >.col,
+.header>.grid >.row >.col {
     max-width: 100%;
 
 }

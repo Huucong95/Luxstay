@@ -40,7 +40,7 @@
     display: none;
 }
 .header__nav-btn {
-    margin:auto;
+    margin: auto;
     display: none;
 
 }
@@ -97,7 +97,8 @@
     height: 70px;
 }
 .header__search {
-    width: 598px;
+    max-width: 598px;
+    min-width: 320px;
     border-radius: 5px;
     height: 47px;
     box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);

@@ -18,7 +18,7 @@
                 <div class="grid wide">
                     <div class="row row-fix">
                         <div class="col l-6 m-12 c-12 header-left flex-nowrap">
-                            <a href="" class="header__logo hide-on-mobile">
+                            <a href="" class="header__logo hide-on-mobile hide-on-tablet">
                                 <svg version="1.1" viewBox="0 0 50 50" class="header__logo-edit" style="width: 50px; height: 50px;">
                                     <path
                                         pid="0"
@@ -27,17 +27,19 @@
                                     ></path>
                                 </svg>
                             </a>
-                            <div class="header__search header__search-active ">
+                            <div class="header__search  ">
                                 <div class="header__search-location">
                                     <i class="fa-solid fa-magnifying-glass search_icon"></i>
                                     <input type="text" placeholder="Tìm kiếm" class="header__search-input" />
                                 </div>
-                                <div class="header__search-date hide-on-mobile"><i class="fa-regular fa-calendar search_icon"></i> <span> Ngày</span></div>
-                                <div class="header__search-guest hide-on-mobile"><i class="fa-solid fa-user search_icon"></i> <span> Số khách</span></div>
-                                <button class="header__search-btn hide-on-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <div class="header__search-date hide-on-mobile hide-on-tablet"><i class="fa-regular fa-calendar search_icon"></i> <span> Ngày</span></div>
+                                <div class="header__search-guest hide-on-mobile hide-on-tablet"><i class="fa-solid fa-user search_icon"></i> <span> Số khách</span></div>
+                                <button class="header__search-btn hide-on-mobile hide-on-tablet"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                
                             </div>
+                            <label for="check" class="header__nav-btn"><i class="fa-solid fa-bars header__nav-btn-fix"></i></label>
                         </div>
-                        <label for="check" class="header__nav-btn"><i class="fa-solid fa-bars header__nav-btn-fix"></i></label>
+                        
                         <input  type="checkbox" name="" id="check" class="menu" s>
                         <label  for="check" class="header__nav-overlay"></label>
                         <div class="header__nav-c">
