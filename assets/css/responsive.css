@@ -11,6 +11,13 @@
         flex-wrap: nowrap;
         overflow-x: auto;
     }
+    .row::-webkit-scrollbar {
+        display: none;
+    }
+    .scroller {
+        display: none;
+      }
+    
     .header__nav-btn {
         display: block;
     }
