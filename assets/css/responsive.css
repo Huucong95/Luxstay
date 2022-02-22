@@ -45,11 +45,11 @@
 @media (max-width:739px) {
     
     .col {
-        max-width: 70%;
+        max-width: 90%;
         background-size: contain;
     }
     .place__list > .row >.col {
-        max-width: 40%;
+        max-width: 47%;
         background-size: contain;
     }
     .hide-on-mobile {
@@ -88,10 +88,26 @@
 .about__sologan {
     font-size: 2.3rem;
 }
+.place {
+    margin-top: 8px;
+}
+.slider-fix {
+    margin-left: 16px ;
+    margin-right: 16px;
+}
 .homestay,
 .widget,
 .about{
     margin-left: 16px ;
     margin-right: 16px;
+}
+.about__content {
+    margin-bottom: 0;
+}
+.about__app-download{
+    padding-top: 30px;
+}
+.about__app-img {
+    margin-top: 48px;
 }
 }
