@@ -12,7 +12,9 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     }
-
+    .row::-webkit-scrollbar {
+        display: none;
+    }
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -27,22 +29,35 @@
     .tutorial__list> .row {
     flex-wrap: nowrap;
     overflow-x: auto;
-    }
-    .tutorial__list> .row >.col {
-        width: 10%;
+    margin: 0 20px;
     }
     .row::-webkit-scrollbar {
         display: none;
     }
-   
+    
     
 }
 
 /* mobile */
 @media (max-width:739px) {
     
+    .col {
+        max-width: 70%;
+        background-size: contain;
+    }
+    .place__list > .row >.col {
+        max-width: 40%;
+        background-size: contain;
+    }
     .hide-on-mobile {
         display: none;
+    }
+    .place__list,
+    .event__list ,
+    .suggest__list ,
+    .discover__list ,
+    .tutorial__list {
+        margin: 0 12px;
     }
     
 }

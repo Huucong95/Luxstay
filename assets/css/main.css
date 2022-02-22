@@ -292,7 +292,7 @@
 .tutorial-item__img {
     height: 228px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 5px;
 }
 .about__app-img {
