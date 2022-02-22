@@ -15,6 +15,9 @@
     .row::-webkit-scrollbar {
         display: none;
     }
+    .row::-webkit-moz-scrollbar{
+        display: none;
+    }
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -59,5 +62,24 @@
     .tutorial__list {
         margin: 0 12px;
     }
+.wellcome-heading,
+.place-heading,
+.event-heading,
+.suggest-heading,
+.discover-heading,
+ .tutorial-heading {
+    margin-left: 8px ;
+    margin-right: 8px;
+}
+
+.wellcome-content,
+.place-content,
+.event-content,
+.suggest-content,
+.discover-content,
+.tutorial-content {
+    margin-left: 8px ;
+    margin-right: 8px;
+}
     
 }

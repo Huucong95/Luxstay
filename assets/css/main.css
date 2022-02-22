@@ -153,7 +153,8 @@
 .place-heading,
 .event-heading,
 .suggest-heading,
-.discover-heading .tutorial-heading {
+.discover-heading,
+ .tutorial-heading {
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #222;
