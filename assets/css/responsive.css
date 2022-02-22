@@ -1,0 +1,48 @@
+/* mobie tablet */
+@media (max-width: 1023px) {
+    
+    .hide-on-mobie-tablet {
+        display: none;
+    }
+    .place__list> .row,
+    .event__list > .row,
+    .suggest__list > .row,
+    .discover__list > .row,
+    .tutorial__list> .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    }
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+ 
+    .hide-on-tablet {
+        display: none;
+    }
+    .place__list> .row,
+    .event__list > .row,
+    .suggest__list > .row,
+    .discover__list > .row,
+    .tutorial__list> .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    }
+    .tutorial__list> .row >.col {
+        width: 10%;
+    }
+    .place__list > .row::-webkit-scrollbar {
+        display: none;
+    }
+   
+    
+}
+
+/* mobile */
+@media (max-width:739px) {
+    
+    .hide-on-mobile {
+        display: none;
+    }
+    
+}
