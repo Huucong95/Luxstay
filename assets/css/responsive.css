@@ -68,8 +68,8 @@
 .suggest-heading,
 .discover-heading,
  .tutorial-heading {
-    margin-left: 8px ;
-    margin-right: 8px;
+    margin-left: 16px ;
+    margin-right: 16px;
 }
 
 .wellcome-content,
@@ -78,8 +78,11 @@
 .suggest-content,
 .discover-content,
 .tutorial-content {
-    margin-left: 8px ;
-    margin-right: 8px;
+    margin-left: 16px ;
+    margin-right: 16px;
 }
-    
+.about> .row >.col {
+    max-width: 100%;
+
+}
 }
