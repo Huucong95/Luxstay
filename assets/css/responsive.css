@@ -15,9 +15,6 @@
     .row::-webkit-scrollbar {
         display: none;
     }
-    .row::-webkit-moz-scrollbar{
-        display: none;
-    }
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -109,5 +106,15 @@
 }
 .about__app-img {
     margin-top: 48px;
+}
+
+.header__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__nav-list{
+    display: block;
+
 }
 }
