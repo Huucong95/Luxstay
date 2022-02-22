@@ -31,7 +31,7 @@
     .tutorial__list> .row >.col {
         width: 10%;
     }
-    .place__list > .row::-webkit-scrollbar {
+    .row::-webkit-scrollbar {
         display: none;
     }
    
